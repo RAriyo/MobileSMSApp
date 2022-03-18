@@ -1,5 +1,6 @@
 const Order = require("./order");
 
+//list of the items that will be displayed on the bot
 const OrderState = Object.freeze({
     WELCOMING:   Symbol("welcoming"),
     SIZE:   Symbol("size"),
