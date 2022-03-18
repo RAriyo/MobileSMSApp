@@ -70,7 +70,7 @@ module.exports = class WaffleOrder extends Order{
                 {
                     wafflePrice = 20;
                 }
-
+                // list of prices of items sold in the store
                 let syrupPrice = 5;
                 let iceCreamPrice = 10;
                 let chickenWingsPrice = 0;
