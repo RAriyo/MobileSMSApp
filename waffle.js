@@ -79,7 +79,8 @@ module.exports = class WaffleOrder extends Order{
                 let subtotal = wafflePrice + syrupPrice + iceCreamPrice + chickenWingsPrice;
                 let hst = 0.13 * subtotal;
                 let total = (subtotal + hst).toFixed(2);
-
+                
+                //displays total to user
                 aReturn.push('your order costs, $'+total + ' (tax incl)');
 
                 let d = new Date(); 
