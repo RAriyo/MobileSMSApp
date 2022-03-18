@@ -8,6 +8,7 @@ const OrderState = Object.freeze({
     CHICKENWINGS:  Symbol("chickenwings")
 });
 
+//adding modules here
 module.exports = class WaffleOrder extends Order{
     constructor(){
         super();
