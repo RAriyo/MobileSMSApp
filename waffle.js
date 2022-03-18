@@ -54,8 +54,7 @@ module.exports = class WaffleOrder extends Order{
                     
                     aReturn.push('with chicken wings');
                 }
-                
-                //calculation of the price of the product
+
                 let wafflePrice = 0;
                 let waffleSize = (this.sSize).toLowerCase();
                 let chickenWings = (this.sChickenwings).toLowerCase();
